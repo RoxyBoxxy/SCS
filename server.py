@@ -21,7 +21,7 @@ while not quitting:
                   if addr not in clients:
                           clients.append(addr)
               
-                  print time.ctime(time.time()) + str(addr) + ": :" + str(data)
+                  print time.ctime(time.time()) + str(addr) + ": :"
                   for client in clients:
                          s.sendto(data, client)
 	except:
