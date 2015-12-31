@@ -2,7 +2,7 @@ import socket
 import time
 
 host = "127.0.0.1"
-port = 5000
+port = 666
 
 clients = []
 
@@ -11,7 +11,7 @@ s.bind((host, port))
 s.setblocking(0)
 
 quitting = False
-print "Server is running on port *5000"
+print "Server is running on port *666"
 
 while not quitting:
         try: 
